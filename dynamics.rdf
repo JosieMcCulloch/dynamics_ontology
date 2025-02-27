@@ -1,0 +1,1674 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics/"
+     xml:base="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:dynamics="http://www.semanticweb.org/josiemcculloch/ontologies/2024/9/dynamics#"
+     xmlns:dynamics1="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#"
+     xmlns:AnnotationVocabulary="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#definition -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#definition"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#mathml -->
+
+    <owl:AnnotationProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#mathml"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#example -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#example"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/adaptedFrom"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/explanatoryNote"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/firstOrderLogicDefinition"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maturity -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/maturity"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/naturalLanguageDefinition"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageDefinition -->
+
+    <owl:AnnotationProperty rdf:about="https://spec.industrialontologies.org/ontology/core/meta/AnnotationVocabulary/semiFormalNaturalLanguageDefinition"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#nonNegativeReal -->
+
+    <rdfs:Datatype rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#nonNegativeReal"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#affects -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#affects">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAffectedBy"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAPropertyOf"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAPropertyOf -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAPropertyOf">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAffectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAffectedBy"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isDerivedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isDerivedFrom">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isUsedToDerive"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isUsedToDerive -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isUsedToDerive"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsFrom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsFrom">
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsTo"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsTo"/>
+    
+
+
+    <!-- https://spec.industrialontologies.org/ontology/core/Core/isMeasuredValueOfAtSomeTime -->
+
+    <owl:ObjectProperty rdf:about="https://spec.industrialontologies.org/ontology/core/Core/isMeasuredValueOfAtSomeTime"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Linear -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Linear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinear"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#StochasticPartialDifferentialEquation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#StochasticPartialDifferentialEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#StochasticDifferentialEquation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Acceleration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Acceleration">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isDerivedFrom"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Velocity"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <obo:IAO_0000115>The rate of chance in velocity over time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#AntiSymmetry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#AntiSymmetry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Symmetry"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#AppliedForce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#AppliedForce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <rdfs:comment>Generally given as x.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ApproximateSolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ApproximateSolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Solution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ComplementaryFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ComplementaryFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GeneralSolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ComputationalFluidDynamics -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ComputationalFluidDynamics">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConjugateMomenta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConjugateMomenta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Momentum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationLaw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationLaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Law"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfAngularMomentum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfAngularMomentum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfMomentum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfEnergy">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationLaw"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#affects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Energy"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationLaw"/>
+        <obo:IAO_0000115>The total energy of the world remains constant.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfLinearMomentum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfLinearMomentum">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfMomentum"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#affects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LinearMomentum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfMomentum"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfMomentum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfMomentum">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationLaw"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#affects"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Momentum"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationLaw"/>
+        <obo:IAO_0000115>If all forces are internal - no external forces - the total momentum remains constant.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Constant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Constant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Quantity"/>
+        <obo:IAO_0000115>A measurable value that does not change with time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConstantOfIntegration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConstantOfIntegration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemDependentConstant"/>
+        <rdfs:comment>Often denoted C or c.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Context -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Context"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Continuous -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Continuous">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ContinuousTimeModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ContinuousTimeModel">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Model"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Continuous"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ContinuousWaveletTransform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ContinuousWaveletTransform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#WaveletTransform"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteWaveletTransform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#CriticallyDamped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#CriticallyDamped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damped"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damped">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isAffectedBy"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damping"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DampedNaturalFrequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DampedNaturalFrequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NaturalFrequency"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#UndampedNaturalFrequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LocalisedNonLinearity"/>
+        <rdfs:comment>Generally given as c.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DampingConstant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DampingConstant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemDependentConstant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Deterministic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Deterministic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonDeterministic"/>
+        <obo:IAO_0000118>not random</obo:IAO_0000118>
+        <obo:IAO_0000118>predictable</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentationNotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentationNotation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equation"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentationNotation"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiracDeltaFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiracDeltaFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+        <obo:IAO_0000115>A generalised function of real numbers, whose value is zero for all numbers except at zero.</obo:IAO_0000115>
+        <obo:IAO_0000118>Impulse function</obo:IAO_0000118>
+        <obo:IAO_0000118>Unit impulse</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Discrete -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Discrete">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteTimeModel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteTimeModel">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Model"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Model"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Discrete"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteWaveletTransform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteWaveletTransform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#WaveletTransform"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Displacement -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Displacement">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <obo:IAO_0000115>A vector of the distance moved in a straight line.</obo:IAO_0000115>
+        <rdfs:comment>Generally given as y.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DistributedNonLinearity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DistributedNonLinearity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinearity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Domain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Domain"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Drag -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Drag">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ElasticEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ElasticEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PotentialEnergy"/>
+        <obo:IAO_0000115>Energy stored in an elastic material as a result of stretching or compressing the object.
+= 0.5kx^2
+k: constant
+x: extension of the object</obo:IAO_0000115>
+        <dynamics1:mathml>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos;&gt;
+ &lt;mfrac&gt;
+  &lt;msup&gt;
+   &lt;mi&gt;kx&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msup&gt;
+  &lt;mn&gt;2&lt;/mn&gt;
+ &lt;/mfrac&gt;
+&lt;/math&gt;</dynamics1:mathml>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Energy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Energy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#nonNegativeReal"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equation"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EquationofMotion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EquationofMotion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equilibrium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equilibrium">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <rdfs:comment>The system state of equilibrium.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EulerLagrangeEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EulerLagrangeEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SecondOrderDifferentialEquation"/>
+        <obo:IAO_0000118>EL equation</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ExactSolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ExactSolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Solution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FirstOrderDifferentialEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FirstOrderDifferentialEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Force -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Force"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Forced -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Forced">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Passive"/>
+        <obo:IAO_0000118>Active</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Formalism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Formalism"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FreeLoading -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FreeLoading">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Context"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Frequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Frequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FrequencyDomain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FrequencyDomain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FrequencyResponseFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FrequencyResponseFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Friction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Friction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damping"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FunctionallyIndependent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FunctionallyIndependent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <obo:IAO_0000115>Given a pair (p, ṗ),  ∂ ṗ/∂p = ∂p/∂ ṗ = 0.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FundamentalMode -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FundamentalMode">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Oscillation"/>
+        <obo:IAO_0000115>The lowest possible natural frequence of a vibrating system, which is maximal and the centre and zero at the edges.</obo:IAO_0000115>
+        <obo:IAO_0000118>First Harmonic</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GeneralSolution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GeneralSolution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Solution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GravitationalEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GravitationalEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PotentialEnergy"/>
+        <obo:IAO_0000115>The energy stored in an object due to its height from the surface of the Earth.
+= mgh
+m: mass
+h: height above Earth&apos;s surface
+g: acceleration due to gravity</obo:IAO_0000115>
+        <dynamics1:mathml>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos;&gt;
+ &lt;mi&gt;mgh&lt;/mi&gt;
+&lt;/math&gt;</dynamics1:mathml>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#HamiltonianFormalism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#HamiltonianFormalism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Formalism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Harmonic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Harmonic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Periodic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#HookesLaw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#HookesLaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ConservationOfEnergy"/>
+        <obo:IAO_0000115>For a small displacement or deformation of an object, the displacement or deformation is directly proportional to the applied force or load.
+For a spring: f = kx
+f: spring force
+k: spring constant
+x: displacement</obo:IAO_0000115>
+        <dynamics1:mathml>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos;&gt;
+   &lt;mi&gt;f&lt;/mi&gt;
+   &lt;mo&gt;=&lt;/mo&gt;
+   &lt;mi&gt;kx&lt;/mi&gt;
+&lt;/math&gt;</dynamics1:mathml>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ImpulseResponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ImpulseResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#IntegralEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#IntegralEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Invariant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Invariant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <obo:IAO_0000115>Does not change under certain transformations.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseTransform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseTransform">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsFrom"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FrequencyDomain"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsTo"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TimeDomain"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#KineticEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#KineticEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Energy"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PotentialEnergy"/>
+        <obo:IAO_0000115>The energy acquired by an object due its motion.
+0.5mv^2</obo:IAO_0000115>
+        <dynamics1:mathml>&lt;math xmlns=&apos;http://www.w3.org/1998/Math/MathML&apos;&gt;
+ &lt;mfrac&gt;
+  &lt;msup&gt;
+   &lt;mi&gt;kv&lt;/mi&gt;
+   &lt;mn&gt;2&lt;/mn&gt;
+  &lt;/msup&gt;
+  &lt;mn&gt;2&lt;/mn&gt;
+ &lt;/mfrac&gt;
+&lt;/math&gt;</dynamics1:mathml>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LagrangeNotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LagrangeNotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentationNotation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LeibnizNotation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonsNotation"/>
+        <obo:IAO_0000115>The derivative of a function f with respect to x is written as f&apos;(x).</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LagrangianFormalism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LagrangianFormalism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Formalism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Law -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Law"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LeibnizNotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LeibnizNotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentationNotation"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonsNotation"/>
+        <obo:IAO_0000115>The derivative of y with respect to x is written as dy/dx.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LinearMomentum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LinearMomentum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Momentum"/>
+        <obo:IAO_0000115>=mv</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LinearSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LinearSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LocalisedNonLinearity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LocalisedNonLinearity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinearity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Mass -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Mass">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#nonNegativeReal"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemDependentConstant"/>
+        <rdfs:comment>Generally given as m.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ModalCoordinates -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ModalCoordinates">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Displacement"/>
+        <obo:IAO_0000118>Generalised coordinates</obo:IAO_0000118>
+        <obo:IAO_0000118>Normal coordinates</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Model -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Model"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Momentum -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Momentum">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <rdfs:comment>Generally given as p.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Motion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Motion"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#MultipleDegreeOfFreedomSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#MultipleDegreeOfFreedomSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#System"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SingleDegreeOfFreedomSystem"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NaturalFrequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NaturalFrequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemDependentConstant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonianFormalism -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonianFormalism">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Formalism"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonsNotation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonsNotation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentationNotation"/>
+        <obo:IAO_0000115>The derivative of y with respect to x is written as:
+&lt;math&gt;
+  &lt;mover&gt;
+      &lt;mi&gt;y&lt;/mi&gt;
+    &lt;mo&gt;.&lt;/mo&gt;
+  &lt;/mover&gt;
+&lt;/math&gt;</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonsSecondLaw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NewtonsSecondLaw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Law"/>
+        <obo:IAO_0000115>The acceleration of a moving object depends upon its mass and the force acting on it
+F = ma</obo:IAO_0000115>
+        <obo:IAO_0000118>Newton II</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonDeterministic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonDeterministic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <obo:IAO_0000118>Indeterministic</obo:IAO_0000118>
+        <obo:IAO_0000118>random</obo:IAO_0000118>
+        <obo:IAO_0000118>unpredictable</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonGaussian -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonGaussian">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinearity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonLinearity"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonPerturbativeTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonPerturbativeTheory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ApproximateSolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonStationary -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NonStationary">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#OrdinaryDifferentialEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#OrdinaryDifferentialEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation"/>
+        <obo:IAO_0000118>ODE</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Oscillation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Oscillation">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Motion"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Periodic"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Overdamped -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Overdamped">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Damped"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PartialDifferentialEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PartialDifferentialEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation"/>
+        <obo:IAO_0000118>PDE</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Passive -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Passive">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+        <obo:IAO_0000118>Free</obo:IAO_0000118>
+        <obo:IAO_0000118>Unforced</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Periodic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Periodic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PerturbationTheory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PerturbationTheory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Series"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PiecewiseLinearFunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PiecewiseLinearFunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+        <obo:IAO_0000115>A function composed of linear segments.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PlancksConstant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PlancksConstant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemIndependentConstant"/>
+        <rdfs:comment>h=6.626068</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PotentialEnergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PotentialEnergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Energy"/>
+        <obo:IAO_0000115>The energy difference between the energy of an object in a given position and a reference point.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PrincipleOfLeastAction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PrincipleOfLeastAction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Law"/>
+        <obo:IAO_0000115>The average kinetic energy less the average potential energy is as little as possible for the path of an object going from one point at time t1 to another at time t2.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemDependentConstant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemDependentConstant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Constant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemIndependentConstant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ProblemIndependentConstant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Constant"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Quantity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Quantity">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Reciprocity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Reciprocity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Resonance -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Resonance">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Frequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Response -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Response">
+        <obo:IAO_0000118>Output</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#RestoringForce -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#RestoringForce">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Force"/>
+        <obo:IAO_0000115>A force that acts to bring a body to its equilibrium.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SecondOrderDifferentialEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SecondOrderDifferentialEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Series -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Series">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ApproximateSolution"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SingleDegreeOfFreedomSystem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SingleDegreeOfFreedomSystem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#System"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Solution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Solution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Equation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SteadyStateResponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SteadyStateResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TImeResponse"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Stiffness -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Stiffness">
+        <owl:equivalentClass>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2002/07/owl#real"/>
+            </owl:Restriction>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <rdfs:comment>Generally given as k.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#StochasticDifferentialEquation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#StochasticDifferentialEquation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DifferentialEquation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Symmetry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Symmetry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#System -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#System"/>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TImeResponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TImeResponse">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Response"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TimeDomain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TimeDomain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Domain"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Trajectory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Trajectory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <rdfs:comment>Generally given as y(t).</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsFrom"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TimeDomain"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#transformsTo"/>
+                        <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FrequencyDomain"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Function"/>
+        <obo:IAO_0000118>TransferFunction</obo:IAO_0000118>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transient">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Property"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TransientResponse -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TransientResponse">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TImeResponse"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transient"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TransverseVibration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#TransverseVibration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Oscillation"/>
+        <obo:IAO_0000115>Vibrations that are at right angles to the direction of travel.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#UndampedNaturalFrequency -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#UndampedNaturalFrequency">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NaturalFrequency"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Quantity"/>
+        <obo:IAO_0000115>A measurable value that changes with time.</obo:IAO_0000115>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Velocity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Velocity">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#hasProperty"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Forced"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#isDerivedFrom"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Displacement"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Variable"/>
+        <rdfs:comment>Generally given as v or ẏ.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#WaveletTransform -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#WaveletTransform">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ARX -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ARX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteTimeModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#GaussianProcess -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#GaussianProcess">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#StochasticPartialDifferentialEquation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#NARMAX -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#NARMAX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteTimeModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#NARX -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#NARX">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteTimeModel"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DaubechiesWavelet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DaubechiesWavelet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DiscreteWaveletTransform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DuffingSolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#DuffingSolution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ExactSolution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FokkerPlanckEquation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FokkerPlanckEquation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PartialDifferentialEquation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FourierTransform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#FourierTransform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GeneralEquationOfMotion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#GeneralEquationOfMotion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EquationofMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#HamiltonEquationOfMotion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#HamiltonEquationOfMotion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EquationofMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseFourierTransform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseFourierTransform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseTransform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseLaplaceTransform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseLaplaceTransform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseTransform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LagrangianEquationOfMotion -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LagrangianEquationOfMotion">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#EquationofMotion"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LaplaceTransform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LaplaceTransform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LegendreTransform -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#LegendreTransform">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#InverseTransform"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Transformation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#MorletWavelet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#MorletWavelet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ContinuousWaveletTransform"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#MultipleScales -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#MultipleScales">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Series"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NaivePerturbation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#NaivePerturbation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PerturbationTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PendulumSolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PendulumSolution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ExactSolution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SingularPerturbation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SingularPerturbation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#PerturbationTheory"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SolitionSolution -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#SolitionSolution">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#ExactSolution"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#VolterraSeries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#VolterraSeries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Series"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#WienerSeries -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#WienerSeries">
+        <rdf:type rdf:resource="http://www.semanticweb.org/josiemcculloch/ontologies/dynamics#Series"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
