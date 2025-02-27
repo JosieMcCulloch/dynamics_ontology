@@ -1,2 +1,2 @@
 # dynamics_ontology
-A nonlinear dynamics ontology
+The dynamics ontology is an ontology for nonlinear structural dynamics, covering data-based and analystical knowledge in the field.
