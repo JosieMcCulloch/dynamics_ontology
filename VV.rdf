@@ -1,0 +1,1131 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/josiemcculloch/ontologies/2026/3/untitled-ontology-37/"
+     xml:base="http://www.semanticweb.org/josiemcculloch/ontologies/2026/3/untitled-ontology-37/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:IAO_0000111="http://purl.obolibrary.org/obo/IAO_0000111#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/josiemcculloch/ontologies/2026/3/untitled-ontology-37"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#alsoKnownAs -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#alsoKnownAs"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#affects -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#affects">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isAffectedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#analyses -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#analyses"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#compares -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#compares"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#contains -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#contains"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#identifies -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#identifies">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isIdentifiedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#implements -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#implements">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isImplementedBy"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#isAffectedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#isAffectedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#isIdentifiedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#isIdentifiedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#isImplementedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#isImplementedBy">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#isMeasuredBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#isMeasuredBy"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#isUsedBy -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#isUsedBy">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#uses"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#leadsTo -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#leadsTo"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#obtainedFrom -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#obtainedFrom">
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#outputs"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#outputs -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#outputs">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AsymmetricProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#quantifies -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#quantifies"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#uses -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#uses"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#AcceptableValidationAgreement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#AcceptableValidationAgreement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Outcome"/>
+        <rdfs:isDefinedBy>The result from a validation process that the model is an acceptable representation of the real world from the persective of the intended uses of the model.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#AdaptiveImportanceSampling -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#AdaptiveImportanceSampling">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SensitivityAnalysis"/>
+        <IAO_0000111:alsoKnownAs>AIS</IAO_0000111:alsoKnownAs>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#AdvancedMeanValue -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#AdvancedMeanValue">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SensitivityAnalysis"/>
+        <rdfs:comment>AMV</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+        <IAO_0000111:alsoKnownAs>inherentUncertainty</IAO_0000111:alsoKnownAs>
+        <IAO_0000111:alsoKnownAs>irreducibleUncertainty</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>Uncertainties inherent to an experiment, producing non-deterministic effects that cannot be reduced with additional testing.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#AnalyticalSolution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#AnalyticalSolution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelOutput"/>
+        <rdfs:isDefinedBy>The result obtained from a precise mathematical expression that provides the exact solution to a problem.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ApproximateEquation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ApproximateEquation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelSimplification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#BayesianApproach -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#BayesianApproach">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ProbabilisticApproach"/>
+        <rdfs:isDefinedBy>An approach in which probability is defined from the subjective opinion of the analyst about an event.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#BayesianOptimisation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#BayesianOptimisation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#BenchmarkSolution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#BenchmarkSolution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelOutput"/>
+        <rdfs:isDefinedBy>A model outcome that is used as a standard comparison for testing other model outcomes.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#BruteForce -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#BruteForce">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#CalculationError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#CalculationError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Error"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#CalculationVerification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#CalculationVerification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#VerificationAssessment"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#identifies"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationError"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000111:alsoKnownAs>NumericalErrorEstimation</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>The process of quantifying the error of a numerical simulation by demonstration of convergence for the particular model under consideration and to provide an estimation of the numerical errors induced by the use of the model.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#CategoricalAccuracy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#CategoricalAccuracy">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric"/>
+        <rdfs:isDefinedBy>The proportion of examples for which a model&apos;s predicted class (the highest-probability category) matches the true class label.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#CodeError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#CodeError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Error"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#CodeVerification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#CodeVerification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#VerificationAssessment"/>
+        <rdfs:isDefinedBy>The process of verifiying the code is working as intended.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ComputerModel -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ComputerModel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#PredictiveModel"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#contains"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelSimplification"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#implements"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#MathematicalModel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#outputs"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ErrorBound"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A coded implementation of the mathematical model, usually in the form of numerical discreitsation, solution algorithms, and convergence criteria.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ConceptualModel -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ConceptualModel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Model"/>
+        <rdfs:isDefinedBy>The collection of assmptions, algorithms, relationships and data that describe the physical system from which the mathematical model and validation experiement can be constructed.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ConfidenceLimit -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ConfidenceLimit">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Value"/>
+        <rdfs:isDefinedBy>The upper and lower boundaries of a confidence interval calculated around a sample statistic.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ConfigurationManagement -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ConfigurationManagement">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SoftwareQualityAssurance"/>
+        <rdfs:isDefinedBy>The management of the technical and administrative activities concerned with the creation, maintenance, controlled change and quality control of the scope of work.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#DifferentialEvolution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#DifferentialEvolution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#GeneticOptimisation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Discretisation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Discretisation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelSimplification"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#DynamicTesting -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#DynamicTesting">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SoftwareQualityAssurance"/>
+        <rdfs:isDefinedBy>Tests performed to analyse the dynamics behaviour of the code to find and fix defects.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#EnsembleUncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#EnsembleUncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty"/>
+        <rdfs:isDefinedBy>The variability of the results when the same experiment/test is repeated.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#EpistemicUncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#EpistemicUncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+        <IAO_0000111:alsoKnownAs>reducibleUncertainty</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>Uncertainty that stems from a lack of knowledge.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Error -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Error">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#MeasurementDiscrepancy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isAffectedBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isMeasuredBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Reproducible (i.e. deterministic) bias in experimental results that can, in theory, be reduced or eliminated.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ErrorBound -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ErrorBound">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Value"/>
+        <IAO_0000111:alsoKnownAs>ConfidenceBound</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>The maximum possible difference between an expected (true) value and the estimated/predicted value.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#quantifies"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Error"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A quantitative measure that evalutes the difference between a model&apos;s output and the &quot;true&quot; output it is intended to reproduce.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#EvidenceTheory -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#EvidenceTheory">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#quantifies"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#EpistemicUncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000111:alsoKnownAs>Dempster-Shafer Theory</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>A framework that quantifies the degree of belief of sets of possiblilities.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalData -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalData">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Value"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#obtainedFrom"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#PhysicalSystem"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Raw or processed observations/measurements obtained from an experiment.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalOutcome -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalOutcome">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Outcome"/>
+        <rdfs:comment>Links to dynamics ontology: it is affected by geometry, initial conditions, boundary conditions and any other potential input parameters.</rdfs:comment>
+        <rdfs:isDefinedBy>Measured observations that reflect both random variability and systematic error.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalRevision -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalRevision">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Revision"/>
+        <rdfs:isDefinedBy>The process of changing experimental test design, procedures, or measurements to improve agreement with simulation outcomes.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#FinitePrecisionArithmeticError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#FinitePrecisionArithmeticError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationError"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#FirstOrderReliabilityMethods -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#FirstOrderReliabilityMethods">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SensitivityAnalysis"/>
+        <rdfs:comment>FORM</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#FrequentistApproach -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#FrequentistApproach">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ProbabilisticApproach"/>
+        <rdfs:isDefinedBy>An approach in which probability is defined as the number of occurrences of an event.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#FuzzySetTheory -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#FuzzySetTheory">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+        <rdfs:isDefinedBy>A mathematical framework for assigning degrees of membership to belief.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#GeneticOptimisation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#GeneticOptimisation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#GradientDescent -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#GradientDescent">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#GridConvergence -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#GridConvergence">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationVerification"/>
+        <rdfs:isDefinedBy>The process of obtaining an optimum grid size so that the accuracy of the model solution is independent of the computational grid.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#GridSearch -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#GridSearch">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#BruteForce"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#HamiltonianMonteCarlo -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#HamiltonianMonteCarlo">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#BayesianOptimisation"/>
+        <IAO_0000111:alsoKnownAs>HMC</IAO_0000111:alsoKnownAs>
+        <IAO_0000111:alsoKnownAs>Hamiltonian Monte Carlo Algorithm</IAO_0000111:alsoKnownAs>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#IncorrectInputOptions -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#IncorrectInputOptions">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationError"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#InformationGapTheory -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#InformationGapTheory">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+        <IAO_0000111:alsoKnownAs>InfoGapTheory</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>A non-probabilistic quantification of uncertainty measuring the discrepancy between what is known and what is not known.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#InputParameterUncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#InputParameterUncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty"/>
+        <rdfs:isDefinedBy>The inherent variability of valid model input parmeters.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#InsufficientConvergenceTolerance -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#InsufficientConvergenceTolerance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationError"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#InsufficientDiscretisation -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#InsufficientDiscretisation">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationError"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#LatinHypercubeSampling -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#LatinHypercubeSampling">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SamplingApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#MathematicalModel -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#MathematicalModel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#PredictiveModel"/>
+        <rdfs:isDefinedBy>The mathematical equations, boundary values, initial conditions and data needed to describe the conceptual model.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#MeanSquaredError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#MeanSquaredError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric"/>
+        <IAO_0000111:alsoKnownAs>MSE</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>The average of the squared differences between predicted and actual values.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#MeasurementDiscrepancy -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#MeasurementDiscrepancy">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isMeasuredBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ProbabilisticApproach"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Errors and uncertainties present in real-world experimental data and model simulations outputs.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#MetropolisHastings -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#MetropolisHastings">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#BayesianOptimisation"/>
+        <IAO_0000111:alsoKnownAs>MHMCMC</IAO_0000111:alsoKnownAs>
+        <IAO_0000111:alsoKnownAs>Metropolis–Hastings Algorithm</IAO_0000111:alsoKnownAs>
+        <IAO_0000111:alsoKnownAs>Metropolis–Hastings Monte Carlo</IAO_0000111:alsoKnownAs>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Model -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Model">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#contains"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The conceptual/mathematical/numerical description of a specific physical scenario, including geometrical, material, initial, and boundary data.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm">
+        <rdfs:isDefinedBy>A method of adjusting a model&apos;s parameters to improve how well its outputs reflect real-world results.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ModelOutput -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ModelOutput">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Value"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ModelRevision -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ModelRevision">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Revision"/>
+        <rdfs:isDefinedBy>Conceptual/mathematical/numerical description of a specific physical scenario, including geometrical, material, initial, and boundary data.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ModelSimplification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ModelSimplification">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#affects"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#MeasurementDiscrepancy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>Simplifications used within a model when a perfectly accurate representation is not possible/feasible.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ModelValidationError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ModelValidationError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Error"/>
+        <rdfs:isDefinedBy>The discrepancy between the model output and the expected output.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#MonteCarloSampling -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#MonteCarloSampling">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SamplingApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#NormalisedMeanSquaredError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#NormalisedMeanSquaredError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric"/>
+        <IAO_0000111:alsoKnownAs>NMSE</IAO_0000111:alsoKnownAs>
+        <IAO_0000111:alsoKnownAs>NormalizedMeanSquaredError</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>The mean squared error divided by the variance (or mean squared value) of the true targets, producing a scale-invariant measure of prediction error.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#NumericalAlgorithmVerification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#NumericalAlgorithmVerification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CodeVerification"/>
+        <rdfs:isDefinedBy>The process of verifying the correctness of the numerical algorithms implemented in the code.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#NumericalSolution -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#NumericalSolution">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelOutput"/>
+        <rdfs:isDefinedBy>The numerical approximated result of a model.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Outcome -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Outcome">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#contains"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#MeasurementDiscrepancy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The output/result of an physical experiment or model/simulation run.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ParameterCalibration -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ParameterCalibration">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isAffectedBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#leadsTo"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ErrorMetric"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#uses"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelCalibrationAlgorithm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <IAO_0000111:alsoKnownAs>ModelUpdating</IAO_0000111:alsoKnownAs>
+        <IAO_0000111:alsoKnownAs>ParameterEstimation</IAO_0000111:alsoKnownAs>
+        <rdfs:comment>Link to Dynamics ontology: has some Context</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#PhysicalSystem -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#PhysicalSystem">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#outputs"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#BenchmarkSolution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#outputs"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalOutcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment>Replace this with the Strucure (under PhysicalTwin) in the SHM ontology.</rdfs:comment>
+        <rdfs:isDefinedBy>The particular aspect of the world (unit problem, component problem, subsystem, or complete system) that is measured and simulated.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#PrecisionUncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#PrecisionUncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty"/>
+        <rdfs:isDefinedBy>Uncertainty stemming from the precision of measuring devices; usually known to be within a certain range.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#PredictiveModel -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#PredictiveModel">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Model"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#outputs"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#NumericalSolution"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#outputs"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SimulationOutcome"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A model that represents/simulates a physical system.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ProbabilisticApproach -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ProbabilisticApproach">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Process -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Process"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Revision -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Revision">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Process"/>
+        <rdfs:isDefinedBy>A revision of the real-world experiment or simulation/model undertaken when the model was found to not be a valid/useful represenation of the real-world.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#SamplingApproach -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SamplingApproach">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+        <rdfs:isDefinedBy>A method of drawing samples from the input parameter populations to evaluate the distribution of model responses.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#SensitivityAnalysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SensitivityAnalysis">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+        <rdfs:isDefinedBy>Methods of measuring how sources of uncertainty or changes in model inputs relate to uncertainties in the output.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#SimulationOutcome -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SimulationOutcome">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Outcome"/>
+        <IAO_0000111:alsoKnownAs>simulationOutput</IAO_0000111:alsoKnownAs>
+        <rdfs:isDefinedBy>Output generated by the computer model that reflect both the deterministic and nondeterministic response of the model.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#SoftwareQualityAssurance -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SoftwareQualityAssurance">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CodeVerification"/>
+        <rdfs:isDefinedBy>The process of testing the reliability and robustness of the software by identifying and eliminating programming and implementation errors.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#StaticTesting -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#StaticTesting">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#SoftwareQualityAssurance"/>
+        <rdfs:isDefinedBy>Tests performed without executing code to check for defects.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#SubjectiveUncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SubjectiveUncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#EpistemicUncertainty"/>
+        <rdfs:isDefinedBy>Uncertainty stemming from a lack of agreement between experts.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#SystematicError -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SystematicError">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Error"/>
+        <IAO_0000111:alsoKnownAs>bias</IAO_0000111:alsoKnownAs>
+        <rdfs:comment>For example, calibration error, data acquisition error, data reduction error, test technique error.</rdfs:comment>
+        <rdfs:isDefinedBy>Reproducible or deterministic bias that can be reduced.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#TheoryOfRandomSets -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#TheoryOfRandomSets">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis"/>
+        <rdfs:isDefinedBy>Random elements representing subsets of some space that serve as general mathematical models for set-value observations and irregular geometrical patterns.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#TimeConvergence -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#TimeConvergence">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#CalculationVerification"/>
+        <rdfs:isDefinedBy>The process of obtaining optimum time steps so that the accuracy of the model solution is independent of the step size.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#MeasurementDiscrepancy"/>
+        <rdfs:isDefinedBy>A potential deficiency in a model or experiment due to inherent variability (irreducible/aleatory uncertainty) or lack of knowledge (reducible/epistemic uncertainty).</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyAnalysis">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#quantifies"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#EpistemicUncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyQuantification -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#UncertaintyQuantification">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#quantifies"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#ValidationAssessment -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ValidationAssessment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#compares"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#ExperimentalOutcome"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#SimulationOutcome"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#isAffectedBy"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Uncertainty"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#leadsTo"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:unionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#AcceptableValidationAgreement"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Revision"/>
+                        </owl:unionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#quantifies"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ModelValidationError"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>The process of determining the degree to which a model is an accurate representation of the real world from the perspective of the intended uses of the model.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#Value -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#Value">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#contains"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#ConfidenceLimit"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#VerificationAssessment -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#VerificationAssessment">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#Process"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#analyses"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#PredictiveModel"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#compares"/>
+                <owl:someValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#BenchmarkSolution"/>
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#NumericalSolution"/>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:someValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:isDefinedBy>A process for identifying and eliminating errors in programming, insufficient grid resolution, solution tolereances, and finitie precision arithmetic.</rdfs:isDefinedBy>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#EnvironmentalEffects -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#EnvironmentalEffects">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111#MaterialProperties -->
+
+    <owl:NamedIndividual rdf:about="http://purl.obolibrary.org/obo/IAO_0000111#MaterialProperties">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/IAO_0000111#AleatoryUncertainty"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
